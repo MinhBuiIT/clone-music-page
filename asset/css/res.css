@@ -1,0 +1,334 @@
+@media screen and (max-width: 1536px) and (min-width: 1280px) {
+    
+}
+
+@media screen and (max-width: 1280px){
+    
+    .main-song {
+        margin-left: 16%;
+    }
+    .menu-option {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+    }
+    /* Overview */
+    .playlist__item {
+        width: calc(25% - 2rem);
+    }
+    .personal-artist__btn {
+        padding: 1rem;
+    }
+    .hiden-two .col:first-child {
+        display: none;
+    }
+    .hiden-two .col:last-child{
+        display: none;
+    }
+    /* play song */
+    .play-song {
+        padding: 5rem 2rem;
+    }
+    .play-song__wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .menu-icon {
+        margin-left: 7rem;
+    }
+    .time-music {
+        width: 80%;
+    }
+    .vol-music {
+        width: 20%;
+    }
+
+    /* tab bài hát */
+    .personal__main-song-left-photo {
+        width: 24rem;
+        height: 24rem;
+    }
+    .personal__main-song-item-infor__img {
+        flex-shrink: 0;
+    }
+    .personal__main-song-item-infor__des-author,
+    .personal__main-song-item-infor__des h3 {
+        width: 11rem;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    /* discover */
+    .slider-main {
+        height: 20rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .slider-item {
+        height: 100%;
+    }
+    .suggestion-img {
+        height: 20rem;
+    }
+    .height-controll {
+        height: 16rem;
+    }
+    .slider-singer__man {
+        padding: 0 0.6rem;
+    }
+    .slider-singer {
+        height: 16rem;
+    }
+    .music-you__item {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .hidden-1024 {
+        display: none !important;
+    }
+    .shown-1024 {
+        display: block !important;
+    }
+    .shown-fl-1024 {
+        display: flex !important;
+    }
+    .main-wrap {
+        padding: 5rem 2rem 0 2rem;
+    }
+    .header-main.fixed {
+        width: calc(100% - 8%);
+    }
+    .menu-option {
+        width: 8%;
+        overflow: hidden;
+        padding: 2rem 0;
+        transition: all 0.4s linear;
+    }
+    .main-song {
+        margin-left: 8%;
+    }
+    .menu-option.click {
+        width: 22%;
+    }
+    .menu-option.click .menu-item i{
+        position: relative;
+        left: 0;
+        transform: translateX(0%);
+    }
+    .menu-option.click .menu-item span{
+        transform: translateX(1rem);
+
+    }
+    .menu-item i {
+        font-size: 2.2rem;
+        /* padding-left: 2rem; */
+        display: inline-block;
+        position: absolute;
+        left: 40%;
+        transform: translateX(-50%);
+        transition: all 0.2s linear;
+
+    }
+    .menu-item span {
+        transform: translateX(8.2rem);
+        transition: all 0.2s linear;
+
+    }
+    .options-follow-nav, .options-nav {
+        width: 85vw;
+    }
+    .options-follow-nav__item, .options-nav__item {
+        padding: 1rem 1.6rem;
+    }
+    .music-details .title {
+        width: 12rem;
+    }
+    .menu-icon {
+        margin-left: 4rem;
+    }
+    .time-music {
+        margin-left: 2.5rem;
+        margin-top: 0.6rem;
+    }
+    .vol-music {
+        margin-left: 2rem;
+    }
+    .personal__main-song-left {
+        padding-left: 1.4rem;
+    }
+    .search-wrap .input-search {
+        width: 38vw;
+    }
+    /* setting */
+    .list-setting {
+        width: 30vw;
+        max-width: 30rem;
+    }
+}
+
+@media screen and (max-width: 740px){
+    html {
+        font-size: 50%;
+    }
+    .height-controll {
+        height: 20rem;
+    }
+    .justify-center {
+        justify-content: center;
+    }
+    .hidden-768 {
+        display: none;
+    }
+    .shown-768 {
+        display: block;
+    }
+    .main-song {
+        margin-left: 0;
+        margin-bottom: 6rem;
+    }
+    .header-main.fixed {
+        width: 100%;
+    }
+    .search-wrap .input-search {
+        width: 34vw;
+    }
+    .play-song {
+        padding: 3rem 2rem;
+        bottom: 9rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 12px 15px;
+        background-color: var(--color-dark);
+        border-top: 1px solid var(--color-transparent);
+        border-bottom: 1px solid var(--color-transparent);
+    }
+    /* bài hát */
+    .personal__main-song-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .personal__main-song-right {
+        width: 100%;
+    }
+    /* slider discover */ 
+    .slider-item {
+        width: 51%;
+    }
+    /* slider singer */
+    .slider-singer__man {
+        width: calc(100%/4);
+    }
+    .personal-artist {
+        margin-bottom: 5rem;
+    }
+    /* mv */
+    .personal-mv__img {
+        height: 36rem;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    :root {
+        --play-song-height: 50px;
+    }
+    .hidden-576 {
+        display: none !important;
+    }
+    .shown-576 {
+        display: block !important;
+    }
+    .mt-mb {
+        margin-top: 0;
+    }
+    .mt-mb-sm {
+        margin-top: 2.4rem;
+    }
+    /* overview */
+    .personal__user {
+        margin-top: 4rem;
+    }
+    .user-name {
+        font-size: 2.2rem;
+    }
+    .personal-song__item-infor {
+        width: unset;
+        padding-right: 2rem;
+    }
+    .personal-song__item-infor i {
+        font-size: 2rem;
+    }
+    .playlist__item {
+        width: calc(33.33333% - 1rem);
+        margin-right: 1.6rem;
+    }
+    .playlist__slider-box p {
+        font-size: 1.6rem;
+    }
+    .playlist__slider-box {
+        height: 83%;
+    }
+    .suggestion-img {
+        height: 18rem;
+    }
+
+    .personal-artist__btn {
+        padding:1rem 0.6rem;
+    }
+    .search-wrap .input-search {
+        width: 56vw;
+    }
+
+    /* play song */
+    .play-song {
+        padding: 2rem 0;
+        background-color: rgba(102, 104, 116, 0.4);
+        bottom: 7rem;
+    }
+    .music-details .author {
+        display: inline-block;
+        width: 14rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .personal__main-song-left {
+        width: 100%;
+    }
+    .music-details .title {
+        width: 14rem;
+    }
+    .menu-option-md-item {
+        padding: 1rem 0;
+    }
+    .menu-icon {
+        margin-left: 2rem;
+    }
+
+    /* discover */
+    .music-you__item {
+        width: 40%;
+    }
+    /* trend */
+    .trend-item__icons {
+        gap: 1.6rem;
+    }
+    .trend-item__content h3 {
+        width: 14rem;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .trend-item__content h4 {
+        width: 12rem;
+        white-space: nowrap; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .trend__item-wrap {
+        width: 50%;
+    }
+}
